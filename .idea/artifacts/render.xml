@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="render">
+    <output-path>$PROJECT_DIR$/out/artifacts/render</output-path>
+    <root id="archive" name="render.jar">
+      <element id="module-output" name="TextRender" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/TextRender/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

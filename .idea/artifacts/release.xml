@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="release">
+    <output-path>$PROJECT_DIR$/out/artifacts/release</output-path>
+    <root id="archive" name="release.zip">
+      <element id="artifact" artifact-name="render" />
+      <element id="artifact" artifact-name="textreader_window" />
+    </root>
+  </artifact>
+</component>
